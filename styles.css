@@ -110,32 +110,32 @@ nav ul li a {
     color: #333;
 }
 
-.features {
+.productss {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.feature {
+.product1 {
     text-align: center;
     padding: 20px;
     max-width: 300px;
     margin-bottom: 30px;
 }
 
-.feature img {
+.product1 img {
     width: 250px;
     height: 250px;
     object-fit: cover;
     margin-bottom: 15px;
 }
 
-.feature h3 {
+.product1 h3 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.feature p {
+.product1 p {
     font-size: 16px;
     color: #777;
 }
