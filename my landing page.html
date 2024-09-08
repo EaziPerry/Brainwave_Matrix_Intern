@@ -5,243 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DunksFusion - Sneaker Store</title>
-     <style>
-        /* General Styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        /* Navbar */
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #ff6600;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
-        }
-
-        .auth-buttons {
-            display: flex;
-        }
-
-        .auth-buttons button {
-            background-color: #ff6600;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            margin-left: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-
-        /* Hero Section */
-        .hero {
-            background-image: url('image3.jpeg');
-            background-size: cover;
-            background-position: center;
-            height: 600px;
-            color: #fff;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .hero h1 {
-            font-size: 50px;
-            margin: 0;
-        }
-
-        .hero p {
-            font-size: 20px;
-            margin: 20px 0;
-        }
-
-        .hero button {
-            background-color: #ff6600;
-            color: #fff;
-            border: none;
-            padding: 15px 30px;
-            font-size: 18px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        /* Products Section */
-        .products {
-            padding: 50px;
-            background-color: #fff;
-        }
-
-        .products h2 {
-            font-size: 36px;
-            text-align: center;
-            margin-bottom: 40px;
-            color: #333;
-        }
-
-        .features {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-
-        .feature {
-            text-align: center;
-            padding: 20px;
-            max-width: 300px;
-            margin-bottom: 30px;
-        }
-
-        .feature img {
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-
-        .feature h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .feature p {
-            font-size: 16px;
-            color: #777;
-        }
-
-        .price {
-            font-size: 20px;
-            font-weight: bold;
-            color: #ff6600;
-            margin-top: 10px;
-        }
-
-        /* About Us Section */
-        .about {
-            padding: 50px;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
-
-        .about h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        .about p {
-            font-size: 18px;
-            color: #555;
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-
-        /* Services Section */
-        .services {
-            padding: 50px;
-            background-color: #fff;
-            text-align: center;
-        }
-
-        .services h2 {
-            font-size: 36px;
-            margin-bottom: 40px;
-            color: #333;
-        }
-
-        .service {
-            max-width: 800px;
-            margin: 0 auto;
-            margin-bottom: 30px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-        }
-
-        .service h3 {
-            font-size: 28px;
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        .service p {
-            font-size: 18px;
-            color: #555;
-            line-height: 1.6;
-        }
-
-        /* Call to Action */
-        .cta {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 50px 20px;
-        }
-
-        .cta h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        .cta button {
-            background-color: #ff6600;
-            color: #fff;
-            border: none;
-            padding: 15px 30px;
-            font-size: 18px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -253,6 +17,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
@@ -277,25 +42,25 @@
                 <img src="image1.jpeg" alt="Classic Sneaker">
                 <h3>Classic Sneakers</h3>
                 <p>Timeless designs that never go out of style. Perfect for any occasion.</p>
-                <div class="price">25,000 XAF</div>
+                <div class="price">50,000 XAF</div>
             </div>
             <div class="feature">
-                <img src="image 4.jpeg" alt="Sport Sneaker">
+                <img src="image2.jpeg" alt="Sport Sneaker">
                 <h3>Sport Sneakers</h3>
                 <p>Engineered for performance. Boost your athleticism with every step.</p>
-                <div class="price">20,000 XAF</div>
+                <div class="price">60,000 XAF</div>
             </div>
             <div class="feature">
-                <img src="image2.jpeg" alt="Casual Sneaker">
+                <img src="image3.jpeg" alt="Casual Sneaker">
                 <h3>Casual Sneakers</h3>
                 <p>Comfort and style combined. Ideal for everyday wear.</p>
-                <div class="price">22,000 XAF</div>
+                <div class="price">45,000 XAF</div>
             </div>
             <div class="feature">
                 <img src="image5.jpeg" alt="Limited Edition Sneaker">
                 <h3>Limited Edition</h3>
                 <p>Exclusive designs for the true sneaker aficionado. Limited stock available!</p>
-                <div class="price">20,000 XAF</div>
+                <div class="price">100,000 XAF</div>
             </div>
         </div>
     </section>
@@ -327,6 +92,17 @@
         </div>
     </section>
 
+    <!-- Contact Us Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Got questions? We'd love to hear from you! Reach out to us via any of the methods below.</p>
+        <ul>
+            <li>Email: <a href="mailto:info@dunksfusion.com">info@dunksfusion.com</a></li>
+            <li>Phone: +237 674 997 313</li>
+            <li>Address: Behind UBA, Buea, Cameroon</li>
+        </ul>
+    </section>
+
     <!-- Call to Action -->
     <section class="cta">
         <h2>Don't Miss Out on Our Latest Drops!</h2>
@@ -335,9 +111,10 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Dunks Fusion. All rights reserved.</p>
+        <p>&copy; 2024 DunksFusion. All rights reserved.</p>
     </footer>
 
+    <!-- JavaScript for Validation and Auth -->
     <script>
         function subscribe() {
             let email = prompt("Please enter your email to subscribe:");
